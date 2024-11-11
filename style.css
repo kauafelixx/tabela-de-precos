@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+:root{
+    --cor1: #d9ccc1;
+    --cor2:#40352c;
+}
+
+html, body{
+    height: 100vh;
+    background-color: var(--cor1);
+}
+
+h1{
+    color: var(--cor2);
+}
