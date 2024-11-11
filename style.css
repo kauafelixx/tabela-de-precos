@@ -12,10 +12,18 @@
     --font2: "Outfit", sans-serif;
 }
 
+*{
+    margin: opx;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body{
   height: 100vh;
     background-color: var(--cor1);
 }
+
+
 
 header{
     background-color: var(--cor3);
@@ -28,16 +36,83 @@ header{
    background-size: 100% 100%;
    background-repeat: no-repeat;
    background-attachment: fixed;
-   box-shadow: inset 1px 1px 20px rgba(0, 0, 0, 0.642);
+   box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.642);
 line-height: 1em;
+margin-bottom: 10px;
+border-radius: 10px 10px 0px 0px;
+
+
 }
 
 header > h1{
 font-family: var(--font2);
 padding-top: 20px;
-
-
+font-size: 2.5em;
+text-shadow: 0px 0px 1px;
 }
 header > p{
 font-family: var(--font1);
+font-size: 1.4em;
+text-shadow: 0px 0px 1px;
+}
+
+nav{
+background-color: var(--cor1);
+    padding: 5px;
+    text-align: center;
+}
+
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    border-radius: 0px;
+    color: var(--cor2);
+    margin: 7px;
+
+}
+
+nav a:hover{
+   background-color: var(--cor2);
+   color: var(--cor1);
+   border-radius: 5px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664) ;
+   text-decoration: underline;
+
+}
+
+section > h1{
+    font-family: var(--font2);
+    font-size: 1.5em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.358);
+   
+}
+.volume-brasileiro{
+ background-color: var(--cor1);
+color:  var(--cor1);
+box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
+background-attachment: fixed;
+padding: 70px;
+border-radius: 10px;
+}
+
+
+.volume-brasileiro > h1{
+    font-family: var(--font1);
+    font-size: 1.5em;
+    padding: 10px;
+background-color: #40352c9b;
+text-align: center;
+border-radius: 5px;
+
+}
+
+div#img1{
+background-image: url(volume-brasileiro.jpeg);
+background-position: center center;
+background-size:  contain;
+background-repeat: no-repeat;
+
 }
