@@ -3,66 +3,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-:root{
+:root {
     --cor1: #d9ccc1;
-    --cor2:#40352c;
-    --cor3:#a69485;
+    --cor2: #40352c;
+    --cor3: #a69485;
 
-    --font1:  "Sriracha", cursive;
+    --font1: "Sriracha", cursive;
     --font2: "Outfit", sans-serif;
 }
 
-*{
+* {
     margin: opx;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-  height: 100vh;
+body {
+    height: 100vh;
     background-color: var(--cor1);
+    background-image: url(pastel.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 
 
-header{
+header {
     background-color: var(--cor3);
-   text-align: center center;
-   min-height: 150px;
-   text-align: center;
-   padding-top: 10px;
-   background-image: url(wlpp-header.png);
-   background-position:  center center;
-   background-size: 100% 100%;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.642);
-line-height: 1em;
-margin-bottom: 10px;
-border-radius: 10px 10px 0px 0px;
+    text-align: center center;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 10px;
+    background-image: url(wlpp-header.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.642);
+    line-height: 1em;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0px 0px;
 
 
 }
 
-header > h1{
-font-family: var(--font2);
-padding-top: 20px;
-font-size: 2.5em;
-text-shadow: 0px 0px 1px;
-}
-header > p{
-font-family: var(--font1);
-font-size: 1.4em;
-text-shadow: 0px 0px 1px;
+header>h1 {
+    font-family: var(--font2);
+    padding-top: 20px;
+    font-size: 2.5em;
+    text-shadow: 0px 0px 1px;
 }
 
-nav{
-background-color: var(--cor1);
+header>p {
+    font-family: var(--font1);
+    font-size: 1.4em;
+    text-shadow: 0px 0px 1px;
+}
+
+nav {
+    background-color: var(--cor1);
     padding: 5px;
     text-align: center;
 }
 
-nav > a{
+nav>a {
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
@@ -74,45 +80,291 @@ nav > a{
 
 }
 
-nav a:hover{
-   background-color: var(--cor2);
-   color: var(--cor1);
-   border-radius: 5px;
-   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664) ;
-   text-decoration: underline;
+nav a:hover {
+    background-color: var(--cor2);
+    color: var(--cor1);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
+    text-decoration: underline;
 
 }
 
-section > h1{
+section>h1 {
     font-family: var(--font2);
     font-size: 1.5em;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.358);
-   
+
 }
-.volume-brasileiro{
- background-color: var(--cor1);
-color:  var(--cor1);
-box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
-background-attachment: fixed;
-padding: 70px;
-border-radius: 10px;
+
+div{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.volume-brasileiro {
+    background-color: var(--cor1);
+    color: var(--cor1);
+    box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
+    background-attachment: fixed;
+    padding: 70px;
+    border-radius: 10px;
 }
 
 
-.volume-brasileiro > h1{
+.volume-brasileiro>h1 {
     font-family: var(--font1);
     font-size: 1.5em;
     padding: 10px;
-background-color: #40352c9b;
-text-align: center;
-border-radius: 5px;
+    background-color: #40352c9b;
+    text-align: center;
+    border-radius: 5px;
 
 }
 
-div#img1{
-background-image: url(volume-brasileiro.jpeg);
-background-position: center center;
-background-size:  contain;
-background-repeat: no-repeat;
+div#img1 {
+    background-image: url(volume-brasileiro.jpeg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+.efeito-molhado {
+    background-color: var(--cor1);
+    color: var(--cor1);
+    box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
+    background-attachment: fixed;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+
+.efeito-molhado >h1 {
+    font-family: var(--font1);
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: #40352c9b;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+div#img2 {
+    background-image: url(efeito-molhado.jpeg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+.volume-egipcio {
+    background-color: var(--cor1);
+    color: var(--cor1);
+    box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
+    background-attachment: fixed;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+
+.volume-egipcio >h1 {
+    font-family: var(--font1);
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: #40352c9b;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+div#img3 {
+    background-image: url(volume-egipcio.jpeg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+.fio-fio {
+    background-color: var(--cor1);
+    color: var(--cor1);
+    box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
+    background-attachment: fixed;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+
+.fio-fio >h1 {
+    font-family: var(--font1);
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: #40352c9b;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+div#img4 {
+    background-image: url(fio-a-fio.jpeg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+.volume-ingles {
+    background-color: var(--cor1);
+    color: var(--cor1);
+    box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
+    background-attachment: fixed;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+
+.volume-ingles >h1 {
+    font-family: var(--font1);
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: #40352c9b;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+div#img5 {
+    background-image: url(volume-ingles.jpeg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+.fox {
+    background-color: var(--cor1);
+    color: var(--cor1);
+    box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
+    background-attachment: fixed;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+
+.fox>h1 {
+    font-family: var(--font1);
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: #40352c9b;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+div#img6 {
+    background-image: url(fox-eyes.jpeg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
+.marrom {
+    background-color: var(--cor1);
+    color: var(--cor1);
+    box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
+    background-attachment: fixed;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+
+.marrom >h1 {
+    font-family: var(--font1);
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: #40352c9b;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+div#img7 {
+    background-image: url(volume-brasileiro-marrom.jpeg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+.quenn{
+    background-color: var(--cor1);
+    color: var(--cor1);
+    box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
+    background-attachment: fixed;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+
+.quenn >h1 {
+    font-family: var(--font1);
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: #40352c9b;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+div#img8 {
+    background-image: url(efeito-queen.jpeg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
 
 }
