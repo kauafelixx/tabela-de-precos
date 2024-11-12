@@ -120,7 +120,7 @@ div{
 div#img1 {
     background-image: url(volume-brasileiro.jpeg);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
@@ -153,7 +153,7 @@ div#img1 {
 div#img2 {
     background-image: url(efeito-molhado.jpeg);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
@@ -186,7 +186,7 @@ div#img2 {
 div#img3 {
     background-image: url(volume-egipcio.jpeg);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
@@ -221,7 +221,7 @@ div#img3 {
 div#img4 {
     background-image: url(fio-a-fio.jpeg);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
@@ -255,7 +255,7 @@ div#img4 {
 div#img5 {
     background-image: url(volume-ingles.jpeg);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
@@ -289,7 +289,7 @@ div#img5 {
 div#img6 {
     background-image: url(fox-eyes.jpeg);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
@@ -326,7 +326,7 @@ div#img6 {
 div#img7 {
     background-image: url(volume-brasileiro-marrom.jpeg);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
@@ -360,7 +360,28 @@ div#img7 {
 div#img8 {
     background-image: url(efeito-queen.jpeg);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    
 
+}
+
+footer{
+    text-align: center;
+    background-color: var(--cor2);
+  padding: 1px;
+    color: var(--cor1);
+    box-shadow: 1px 1px 10px black;
+    border-radius: 2px;
+}
+
+footer a{
+    color: var(--cor1);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: var(--cor1);
+    text-decoration: underline ;
 }
