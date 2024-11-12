@@ -102,7 +102,7 @@ div{
     color: var(--cor1);
     box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
     background-attachment: fixed;
-    padding: 70px;
+    padding: 100px;
     border-radius: 10px;
 }
 
@@ -120,7 +120,7 @@ div{
 div#img1 {
     background-image: url(volume-brasileiro.jpeg);
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 
 }
@@ -135,7 +135,7 @@ div#img1 {
     color: var(--cor1);
     box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
     background-attachment: fixed;
-    padding: 70px;
+    padding: 100px;
     border-radius: 10px;
 }
 
@@ -153,7 +153,7 @@ div#img1 {
 div#img2 {
     background-image: url(efeito-molhado.jpeg);
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 
 }
@@ -168,7 +168,7 @@ div#img2 {
     color: var(--cor1);
     box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
     background-attachment: fixed;
-    padding: 70px;
+    padding: 100px;
     border-radius: 10px;
 }
 
@@ -186,7 +186,7 @@ div#img2 {
 div#img3 {
     background-image: url(volume-egipcio.jpeg);
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 
 }
@@ -203,7 +203,7 @@ div#img3 {
     color: var(--cor1);
     box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
     background-attachment: fixed;
-    padding: 70px;
+    padding: 100px;
     border-radius: 10px;
 }
 
@@ -221,7 +221,7 @@ div#img3 {
 div#img4 {
     background-image: url(fio-a-fio.jpeg);
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 
 }
@@ -237,7 +237,7 @@ div#img4 {
     color: var(--cor1);
     box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
     background-attachment: fixed;
-    padding: 70px;
+    padding: 100px;
     border-radius: 10px;
 }
 
@@ -255,7 +255,7 @@ div#img4 {
 div#img5 {
     background-image: url(volume-ingles.jpeg);
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 
 }
@@ -271,7 +271,7 @@ div#img5 {
     color: var(--cor1);
     box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
     background-attachment: fixed;
-    padding: 70px;
+    padding: 100px;
     border-radius: 10px;
 }
 
@@ -289,7 +289,7 @@ div#img5 {
 div#img6 {
     background-image: url(fox-eyes.jpeg);
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 
 }
@@ -308,7 +308,7 @@ div#img6 {
     color: var(--cor1);
     box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
     background-attachment: fixed;
-    padding: 70px;
+    padding: 100px;
     border-radius: 10px;
 }
 
@@ -326,7 +326,7 @@ div#img6 {
 div#img7 {
     background-image: url(volume-brasileiro-marrom.jpeg);
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 
 }
@@ -342,8 +342,9 @@ div#img7 {
     color: var(--cor1);
     box-shadow: inset 6px 6px 20px 0px rgba(5, 5, 5, 0.644);
     background-attachment: fixed;
-    padding: 70px;
+    padding: 100px;
     border-radius: 10px;
+
 }
 
 
@@ -359,11 +360,11 @@ div#img7 {
 
 div#img8 {
     background-image: url(efeito-queen.jpeg);
-    background-position: center center;
-    background-size: cover;
+    background-position: top right;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     
-
+    margin-bottom: 100px;
 }
 
 footer{
